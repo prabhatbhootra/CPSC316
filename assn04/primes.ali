@@ -1,0 +1,50 @@
+V "GNAT Lib v2017"
+M P W=b
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV SPARK_05
+
+U primes%b		primes.adb		1e86e318 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+
+D ada.ads		20170516105951 76789da1 ada%s
+D a-except.ads		20170516105953 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170516105949 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20170516105952 119b8fb3 ada.streams%s
+D a-tags.ads		20170516105955 d3a89129 ada.tags%s
+D a-textio.ads		20170516105955 386df5d4 ada.text_io%s
+D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
+D interfac.ads		20170516105950 5ab55268 interfaces%s
+D i-cstrea.ads		20170516105950 e53d8b8e interfaces.c_streams%s
+D primes.adb		20191030023306 26eb16cc primes%b
+D system.ads		20170516105953 6326c08a system%s
+D s-crtl.ads		20170516105948 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170516105954 54135002 system.exception_table%s
+D s-ficobl.ads		20170516105956 078245e4 system.file_control_block%s
+D s-imgint.ads		20170516105950 02dbe0c2 system.img_int%s
+D s-parame.ads		20170516105955 7e2a0d7f system.parameters%s
+D s-soflin.ads		20170516105951 14e1eb6c system.soft_links%s
+D s-stache.ads		20170516105955 a37c21ec system.stack_checking%s
+D s-stalib.ads		20170516105955 09bd3940 system.standard_library%s
+D s-stoele.ads		20170516105956 2dc34a04 system.storage_elements%s
+D s-traent.ads		20170516105950 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170516105953 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20170516105954 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 10|4r6 4r23
+X 6 a-textio.ads
+49K13*Text_IO 471e16 10|4w10 4r27
+263U14*Put_Line 10|35s10
+X 10 primes.adb
+6U11*Primes 6b11 38l5 38t11
+8V13 isPrime{boolean} 8b13 8>22 29l8 29t15 34s10
+8i22 n{integer} 12r10 13r13 18r13 18r28 21r20 22r13 22r28
+9i7 i{integer} 21r13 21r15 22r19 22r35 26m10 26r15
+10b7 Result{boolean} 14m13 16m13 19m10 23m13 28r14
+33i8 X{integer} 34r18 35r34
+
